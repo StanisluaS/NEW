@@ -98,6 +98,7 @@ display: table; /* resets display for IE/Win */
     background-size: cover;
 }
 
+.price,
 .contact {
 	background-image: -moz-linear-gradient(top, #f5f5f5 0%, #363636 100%); /* FF3.6-15 */
     background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#363636 100%); /* Chrome10-25,Safari5.1-6 */
@@ -421,6 +422,42 @@ input[type="submit"]:hover {
     border-radius: 50% 50% 50% 0;
     box-shadow: -2px 2px 2px 0 #aaaaaa;
     transform: rotate(-45deg);
+}
+
+.price {
+	color: #423636;
+	padding: 50px 0;
+}
+
+.price-list {
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 30px;
+}
+
+.price-list th {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.price-list td {
+  border: 1px solid #d8d8d8;
+}
+
+.price-list th,
+.price-list td {
+  padding: 5px 10px;
+}
+
+.price-list .price-number {
+  text-align: center;
+}
+
+.price-list .price-name {
+  font-weight: bold;
+  color: #000000;
 }
 
 .page-footer {
